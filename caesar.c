@@ -21,8 +21,7 @@ int main(int argc,char* argv[]) {
 		scanf ("%[^\n]%*c", msg);
 		
 		//If the second argument is equal to e then do this 	 
-		if (*argv[2] == 'e'){ 
-		
+		if (*argv[2] == 'e'){ 		
 			//For loop that performs caesar ciph for encryption 
 			for(i = 0; i < strlen(msg); i++){ 
 				if (isalpha(msg[i])){		
